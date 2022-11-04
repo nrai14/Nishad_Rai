@@ -1,0 +1,13 @@
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white
+}
+
+#navbarSupportedContent {
+    display: flex;
+    justify-content: space-around;
+}
