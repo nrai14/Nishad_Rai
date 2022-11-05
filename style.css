@@ -15,4 +15,33 @@
 header {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+}
+
+.nav-divider {
+    color: black;
+    border: 0.5px solid black;
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+
+main {
+    background-color: white !important;
+}
+
+.jumbotron {
+    background-color: white;
+    height: 100vh; 
+}
+
+.display-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
