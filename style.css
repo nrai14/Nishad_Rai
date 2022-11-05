@@ -7,7 +7,12 @@
     background-color: white
 }
 
-#navbarSupportedContent {
+
+#container {
+    height: 100vh;
+}
+
+header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
