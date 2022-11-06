@@ -87,10 +87,13 @@ div h3 p {
     grid-gap: 10px;
     display: flex;
     justify-content: space-around;
+    
 }
 
 .card img {
     height: 150px;
-    width: 150px;
+    width: 120px;
     text-align: center;
+    text-indent: 50px;
 }
+
