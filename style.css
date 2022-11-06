@@ -82,4 +82,15 @@ div h3 p {
 .projects {
     height: 100vh;
     padding-top: 100px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card img {
+    height: 150px;
+    width: 150px;
+    text-align: center;
 }
