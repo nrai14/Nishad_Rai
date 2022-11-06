@@ -26,22 +26,30 @@ header {
 }
 
 main {
-    background-color: white !important;
+    background-color: white;
 }
 
 .jumbotron {
     background-color: white;
-    height: 100vh; 
+    height: 100vh;
+    font-family: Roboto; 
 }
 
-.display-4 {
+.display-4, .color:aqua {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section-1 {
+    text-indent: 160px;
 }
 
 .lead {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-indent: 250px;
+    font-size: 30px;
 }
+
