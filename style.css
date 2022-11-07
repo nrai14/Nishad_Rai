@@ -99,13 +99,18 @@ main div h1 span {
 
 .media {
     height: 100vh;
-    
+    text-align: center;
+    padding-top: 20vh;
 }
 
 .CV {
     display: flex;
     justify-content: center;
     
+}
+
+div img {
+    border-radius: 75px;
 }
 
 .aboutMe {
