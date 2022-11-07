@@ -14,9 +14,22 @@
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     margin-top: 20px;
+    width: 100%;
     
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.test {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .nav-link {
@@ -43,29 +56,39 @@ main {
     background-color: white;
 }
 
-.jumbotron {
+/* .jumbotron {
     background-color: white;
     height: 100vh;
     font-family: Roboto; 
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+/* .display-4, .color:aqua {
+    display: block;
+} */
+
+.myJumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
 }
 
-.display-4, .color:aqua {
-    display: block;
+.myJumbotronLine1 {
+    margin-left: -300px;
+}
+
+.myJumbotronLine2 {
+    margin-left: 300px;
 }
 
 main div h1 {
-    text-indent: 450px;
-    font-size: 80px !important;
-}
-
-
-.lead {
-   
-    
-    
+    /* text-indent: 450px; */
+    /* font-size: 80px !important; */
 }
 
 .media {
@@ -77,6 +100,17 @@ main div h1 {
     display: flex;
     justify-content: center;
     
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.aboutMe p {
+    margin: 0;
+    padding: 0;
 }
 
 div h3 p {
@@ -111,4 +145,12 @@ div h3 p {
 .card {
    display: flex;
    justify-content: center;
+}
+
+
+@media screen and (max-width: 992px) {
+    .navbar {
+       flex-wrap: nowrap;
+        flex-direction: row;
+    }
 }
