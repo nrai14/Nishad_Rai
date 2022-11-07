@@ -24,6 +24,11 @@ header {
 }
 
 
+.master-nav {
+    display: flex; 
+    justify-content: space-between !important;
+    font-size: 30px;
+}
 
 .nav-divider {
     color: black;
@@ -42,24 +47,25 @@ main {
     background-color: white;
     height: 100vh;
     font-family: Roboto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .display-4, .color:aqua {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
 }
 
-.section-1 {
-    text-indent: 180px;
+main div h1 {
+    text-indent: 450px;
+    font-size: 80px !important;
 }
+
 
 .lead {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-indent: 270px;
-    font-size: 30px;
+   
+    
+    
 }
 
 .media {
@@ -80,8 +86,9 @@ div h3 p {
 
 
 .projects {
-    height: 100vh;
+    /* height: 100vh; */
     padding-top: 100px;
+    padding-bottom: 50vh;
     display: grid; 
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
@@ -96,4 +103,12 @@ div h3 p {
     text-align: center;
     text-indent: 50px;
 }
+ 
+.card-body {
+    padding: 10px;
+}
 
+.card {
+   display: flex;
+   justify-content: center;
+}

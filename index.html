@@ -18,16 +18,18 @@
   
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
+                <div class="master-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#about-content">About Me <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#projects-section">Projects<span class="sr-only">(current)</span></a>
                   </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#contact-form">Contact<span class="sr-only">(current)</span></a>
                 </li>
+                </div>
               </ul>
             </div>
           </nav>
@@ -41,6 +43,7 @@
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
               <h1 class="display-4">Hi, I'm <span style="color: #5bccf6">Nish</span>...</h1></div>
+              
               <p class="lead">... I am a Front End Developer</p>
             </div>
           </div>
@@ -48,9 +51,9 @@
 
 <!-- About Me - using center-aligned media  -->
 
-<div class="media">
+<div class="media" id="about-content">
   
-  <div class="media-body">
+  <div class="media-body" >
     <div class="CV">
     <img src="./images/CV Photo.jpg" style="width:20em; height:20em;" class="photo align-self-center mr-3" alt="Picture of me">
     </div>
@@ -83,7 +86,7 @@
 
 <br>
 
-<section class="projects">
+<section class="projects" id="projects-section">
 <div class="card" style="width: 18rem;">
   <img src="./images/Coming Soon.jpg" class="card-img-top" alt="...">
   <div class="card-body">
@@ -123,7 +126,7 @@
 
         <!-- Contact form -->
 
-        <form>
+        <form id="contact-form">
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
