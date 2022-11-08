@@ -89,7 +89,7 @@ main div h1 span {
 }
 
 .skills {
-    padding-top: 250px;git
+    padding-top: 250px;
     height: 100vh;
     text-align: center;
     font-size: 25px;
@@ -135,12 +135,13 @@ div img {
     /* height: 100vh; */
     padding-top: 250px;
     padding-bottom: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     display: grid; 
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
-    display: flex;
-    justify-content: space-around;
-    
+    text-align: center;
 }
 
 .card img {
