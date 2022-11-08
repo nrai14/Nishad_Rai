@@ -101,6 +101,7 @@ main div h1 span {
     height: 100vh;
     text-align: center;
     padding-top: 20vh;
+    width: 40%;
 }
 
 .CV {
@@ -168,6 +169,35 @@ div img {
    place-self: center;
    padding: 30px;
 }
+
+form {
+    width: 40%;
+}
+
+article {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    display: grid;
+    grid-template-rows: auto;
+    
+}
+
+
+/* article {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    display: grid;
+    grid-template-rows: auto;
+} */
 
 
 @media screen and (max-width: 992px) {
