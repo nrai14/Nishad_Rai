@@ -99,7 +99,7 @@ main div h1 span {
 .CV {
     display: flex;
     justify-content: center;
-    
+    margin-top: 60px;
 }
 
 div img {
@@ -127,7 +127,7 @@ div img {
 
 .projects {
     /* height: 100vh; */
-    padding-top: 100px;
+    padding-top: 250px;
     padding-bottom: 50vh;
     display: grid; 
     grid-template-columns: 1fr 1fr;
@@ -175,3 +175,4 @@ div img {
         font-size: 30px;
         margin-left: 120px;
     }
+}
