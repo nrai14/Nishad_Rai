@@ -20,7 +20,7 @@ The portfolio successfully loads with:
 
 Deployed website link: https://nrai14.github.io/bootstrap_portfolio/
 
-Screenshots: 
+Screenshots: https://github.com/nrai14/bootstrap_portfolio/issues/1#issue-1440886424
 
 
 
