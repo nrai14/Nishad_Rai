@@ -117,7 +117,6 @@ div img {
 .aboutMe {
     display: flex;
     flex-direction: column;
-    gap: 0;
     justify-items: center;
 }
 
@@ -171,7 +170,10 @@ div img {
 }
 
 form {
-    width: 40%;
+    width: 100%;
+    padding-top: 100px;
+    padding: 100px;
+    margin: 50px;
 }
 
 article {
@@ -179,6 +181,7 @@ article {
     margin: 1rem;
     padding: 2rem 2rem;
     text-align: center;
+
 }
 
 .child {
@@ -190,6 +193,14 @@ article {
     
 }
 
+#row-container {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     display: flex;
+     justify-content: space-evenly;
+     height: 100vh;
+     padding-top: 50px;
+}
 
 /* article {
     display: flex;
