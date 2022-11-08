@@ -146,11 +146,13 @@ div img {
  
 .card-body {
     padding: 10px;
+    text-align: center;
 }
 
 .card {
    display: flex;
    justify-content: center;
+   text-align: center;
 }
 
 
