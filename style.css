@@ -89,8 +89,11 @@ main div h1 span {
 }
 
 .skills {
-    padding: 100px;
+    padding-top: 250px;git
     height: 100vh;
+    text-align: center;
+    font-size: 25px;
+    scroll-snap-align: center;
 }
 
 .media {
