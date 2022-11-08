@@ -18,7 +18,7 @@ The portfolio successfully loads with:
 * BootStrap allowed me to minimize use of media queries, however some were used for cleaner responsive design 
 * Other elements of my original portfolio that are also present here are: smooth UI scrolling when links are clicked and image of project taking user to deployed application (currently still my GitHub repo).
 
-Deployed website link: 
+Deployed website link: https://nrai14.github.io/bootstrap_portfolio/
 
 Screenshots: 
 
