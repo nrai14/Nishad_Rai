@@ -63,19 +63,6 @@ main {
     background-color: white;
 }
 
-/* .jumbotron {
-    background-color: white;
-    height: 100vh;
-    font-family: Roboto; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-/* .display-4, .color:aqua {
-    display: block;
-} */
-
 .myJumbotron {
     display: flex;
     flex-direction: column;
