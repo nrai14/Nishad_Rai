@@ -88,6 +88,7 @@ main div h1 span {
     font-weight: 400;
 }
 
+
 .skills {
     padding-top: 250px;
     height: 100vh;
@@ -133,15 +134,18 @@ div img {
 
 .projects {
     /* height: 100vh; */
-    padding-top: 250px;
+    padding-top: 150px;
     padding-bottom: 50vh;
+    margin-left: 50px;
+    margin-right: 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     display: grid; 
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 30px;
     text-align: center;
+    place-self: center;
 }
 
 .card img {
@@ -156,10 +160,13 @@ div img {
     text-align: center;
 }
 
+
+
 .card {
    display: flex;
-   justify-content: center;
-   text-align: center;
+   justify-content: center !important;
+   place-self: center;
+   padding: 30px;
 }
 
 
