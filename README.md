@@ -2,7 +2,7 @@
 
 ## Description
 
-For the third week of bootcamp, I re-created my original website development portfolio utilising BootStrap. Each section was built from components from Bootstrap with elements of custom HTML/CSS to resemble as much of the original design as possible. 
+I re-created my original website development portfolio utilising BootStrap. Each section was built from components from Bootstrap with elements of custom HTML/CSS to resemble as much of the original design as possible. 
 
 This task was key to understanding the importance of utilising BootStrap and building confidence/familiarity with it. 
 
